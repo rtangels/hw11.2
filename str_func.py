@@ -1,3 +1,7 @@
 def big_line(string):
-    """Возвращает слово большими буквами"""
+    """ Делает слово большими буквами"""
     return string.upper()
+def title_line(string):
+    """Возвращает строку ,где слова с
+    заглавной буквы"""
+    return string.title()
